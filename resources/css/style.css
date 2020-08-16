@@ -1,0 +1,172 @@
+/*CSS style*/
+*{
+  background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  margin-left: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+
+
+}
+.logo img
+{
+  width: auto;
+  height: 50px;
+  color: seashell;
+}
+header nav{
+  padding-right: 10px;
+}
+
+}
+nav span {
+
+  padding-right: 20px;
+}
+
+
+}
+div{
+  border: solid 2px white;
+}
+.mission{
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+
+
+}
+
+.background.image-content{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.background.image-content span{
+  display: block;
+  position: relative;
+
+  text-align: center;
+  margin-top: 300px;
+
+
+
+}
+
+.teas{
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 auto;
+
+
+
+}
+
+.teas span{
+  display: inline-block;
+  text-align: center;
+  padding-left: 200px;
+  padding-top: 40px;
+  padding-right: 150px;
+}
+
+
+
+.tea-selection img{
+  height: 200px;
+  width: 300px;
+  display: block;
+  padding-right: 20px;
+}
+
+
+.tea-selection h4{
+  text-align: center;
+}
+/*Location*/
+
+.locations{
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  margin: 0 auto;
+}
+
+
+.first-column{
+  width: 300px;
+  height: 300px;
+  color: white;
+  background-color: black;
+  align-self: center;
+  text-align: center;
+  margin-right: 40px;
+}
+
+
+.second-column{
+  width: 300px;
+  height: 300px;
+  color: white;
+  background-color: black;
+  align-self: center;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.third-column{
+  width: 300px;
+  height: 300px;
+  color: white;
+  background-color: black;
+  align-self: center;
+  text-align: center;
+
+
+}
+.third-column p, .second-column p, .first-column p{
+
+
+  padding-top: 15px;
+
+}
+.footer{
+
+text-align: center;
+
+
+
+}
+.copyright{
+text-align: left;
+padding-left: 20px;
+}
